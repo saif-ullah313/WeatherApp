@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://th.bing.com/th/id/OIP.bAlbzshaeQqr5LHmM2ty0wHaEK?rs=1&pid=ImgDetMain.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 90vh;
+}
+.weather-card {
+    background-color: rgb(176, 149, 219);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 31px 0px 0px 32vw;
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.weather-card p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 5px 5px 5px blue;
+}
+.HeaderApp button {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 3px 3px 3px red;
+}
+.HeaderApp button:hover {
+    background-color: #218838;
+}
+
